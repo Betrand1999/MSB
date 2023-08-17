@@ -36,7 +36,7 @@ jobs:
     - name: Maven waraper
       run: mvn wrapper:wrapper
     - name: Run java .Jar 
-      run: java -jar /home/java/actions-runner/_work/MSB/MSB/target/java-project-0.0.1-SNAPSHOT.war &
+      run: ./mvnw spring-boot:run -Dspring-boot.run.arguments=--server.port=8080
       
 
    
