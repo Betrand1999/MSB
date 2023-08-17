@@ -36,7 +36,7 @@ jobs:
     - name: Maven waraper
       run: mvn wrapper:wrapper
     - name: Run java .Jar 
-      run: ./mvnw spring-boot:run -Dspring-boot.run.arguments=--server.port=8080
+      run: ./mvnw spring-boot:run -Dspring-boot.run.arguments=--server.port=8080 &
       
 
    
