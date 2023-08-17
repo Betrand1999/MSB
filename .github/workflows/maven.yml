@@ -36,7 +36,7 @@ jobs:
     - name: Maven waraper
       run: mvn wrapper:wrapper
     - name: Run java .Jar 
-      run: kill -9 'lsof -t -i:8080' & java -jar /home/java/actions-runner/_work/MSB/MSB/target/java-project-0.0.1-SNAPSHOT.war &
+      run: java -jar /home/java/actions-runner/_work/MSB/MSB/target/java-project-0.0.1-SNAPSHOT.war &
       
 
    
