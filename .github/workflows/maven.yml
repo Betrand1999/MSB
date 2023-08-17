@@ -40,7 +40,7 @@ jobs:
      # run: ./mvnw spring-boot:run -Dspring-boot.run.arguments=--server.port=8080 &
  
     - name: Docker Build image 
-      run: docker build -t image-name:latest .
+      run: sudo docker build -t image-name:latest .
       
 
    
