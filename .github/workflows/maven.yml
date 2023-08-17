@@ -30,6 +30,6 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Maven is Running
-      run: maven --version 
+      run: mvn -v 
 
    
