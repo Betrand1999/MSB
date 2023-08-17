@@ -31,5 +31,10 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Maven is Running
       run: mvn -v 
+    - name: MVN Install Package
+      run: mvn package
+    - name: Maven waraper
+      run: mvn wrapper:wrapper
+      
 
    
